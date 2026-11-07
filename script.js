@@ -56,7 +56,7 @@ function updateFacingFace() {
   const sinX = Math.sin(y);
   const cosY = Math.cos(x);
   const sinY = Math.sin(x);
-  const facing = [cosX * cosY, -cosX * sinY, -cosX * cosY, cosX * sinY, sinX, -sinX];
+  const facing = [cosX * cosY, -cosX * sinY, -cosX * cosY, cosX * sinY, -sinX, sinX];
   const visibleFace = facing.indexOf(Math.max(...facing));
   if (visibleFace !== activeFace) updateFaceCaption(visibleFace);
 }

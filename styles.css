@@ -150,7 +150,7 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
 .button-outline:hover { background: #ffffff1b; }
 .about-coordinate { position: absolute; right: clamp(24px, 6vw, 96px); bottom: 28px; color: #cbd5f296; font-size: 7px; letter-spacing: .18em; }
 .site-footer { min-height: 100px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px clamp(24px, 6vw, 96px); background: #080a21; }
-.footer-mark { font-size: 11px; }.footer-mark .wordmark-mark { font-size: 17px; }
+.footer-mark { font-size: 11px; }
 .site-footer p { color: #9098bb; font-family: var(--serif); font-size: 11px; }
 .copyright { color: #717996; font-size: 7px; letter-spacing: .14em; }
 
